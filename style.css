@@ -54,12 +54,11 @@ figure img{
     border-style: groove;
 
 }
-figcaption{
-    style="font-weight: lighter;"
-}
+
 figure{
     border: 100px;
-    border-left: solid black;
+    border: solid black;
+    box-shadow: 0 10px 5px 0;
 }
 section h2{
     color: blue;
@@ -96,10 +95,14 @@ html {
     gap: 70px;
     border-radius: 20px;
 }
+.container img{
+    height: 600px;
+    width: 100% ;
+}
 
 nav:hover{
     background-color: whitesmoke;
-    color: red;
+    color: blue;
 }
 
 nav a:hover{
